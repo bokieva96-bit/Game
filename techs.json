@@ -1,0 +1,18 @@
+{
+  "Пехота II": {"cost": 300, "time": 6, "effect": "infantry_bonus", "value": 2},
+  "Пехота III": {"cost": 500, "time": 8, "effect": "infantry_bonus", "value": 3, "requires": "Пехота II"},
+  "Танки I": {"cost": 400, "time": 7, "effect": "tank_bonus", "value": 2},
+  "Танки II": {"cost": 600, "time": 9, "effect": "tank_bonus", "value": 3, "requires": "Танки I"},
+  "Авиация I": {"cost": 350, "time": 6, "effect": "air_bonus", "value": 2},
+  "Авиация II": {"cost": 550, "time": 8, "effect": "air_bonus", "value": 3, "requires": "Авиация I"},
+  "Ракетостроение": {"cost": 700, "time": 10, "effect": "rocket_bonus", "value": 2},
+  "Артиллерия": {"cost": 300, "time": 5, "effect": "artillery_bonus", "value": 3},
+  "Экономика I": {"cost": 200, "time": 4, "effect": "income_bonus", "value": 20},
+  "Экономика II": {"cost": 400, "time": 6, "effect": "income_bonus", "value": 30, "requires": "Экономика I"},
+  "Промышленность": {"cost": 500, "time": 7, "effect": "prod_bonus", "value": 10},
+  "Ядерная физика": {"cost": 1000, "time": 15, "effect": "nuclear_unlock", "value": 1, "year_required": 1943},
+  "Радары": {"cost": 400, "time": 6, "effect": "radar_bonus", "value": 10, "requires": "Экономика I"},
+  "Шифрование": {"cost": 300, "time": 5, "effect": "spy_defense", "value": 20},
+  "Ядерный реактор": {"cost": 1200, "time": 12, "effect": "income_bonus", "value": 100, "requires": "Ядерная физика"},
+  "Зенитные орудия": {"cost": 350, "time": 5, "effect": "aa_bonus", "value": 5}
+}
